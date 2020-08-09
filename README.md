@@ -9,4 +9,4 @@ It's a copy from the initial page from Apple, just for put in practice the Respo
 
 Download a ZIP Archive <br>
 or <br>
-`git clone https://github.com/CauaS1/apple.git`
+Git Clone `git clone https://github.com/CauaS1/apple.git`
