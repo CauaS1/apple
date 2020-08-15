@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  position: relative;
+}
+
+html {
+  overflow-x: hidden;
+} 
+
+:root {
+  --title-color: #1d1d1f;
+  --button-color: #0077ED;
+  --button-light-color: #2997ff;
+  --button-text-color: #fff; 
+  font-size: 62%;
+}
+
+/*i M a c*/
+
+.imac {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fff;
+  padding: 130px;
+}
+
+.imac .about {
+  width: 25%;
+}
+
+.imac .about h5 {
+  color: #f56500;
+  font-size: 2rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.about strong, .about h4 {
+  font-size: 2.3rem;
+  font-family: 'Open Sans', sans-serif;
+  color: var(--title-color);
+}
+
+.about h4 {
+  font-size: 3rem;
+}
+
+.imac .about h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 5rem;
+  color: var(--title-color);
+}
+
+.imac  .buttons, .macbooks .buttons  {
+  height: 80px;
+  margin-top: 15px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.about button, .macbooks button {
+  border: 0;
+  outline: none;
+  width: 70px;
+  padding: 10px 15px;
+  background-color: var(--button-color);
+  border-radius: 20px;
+  cursor: pointer;
+  color: var(--button-text-color);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+
+.about .buttons a {
+  font-size: 2rem;
+  color: var(--button-light-color);
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+} 
+
+.buttons a:hover {
+  text-decoration: underline;
+} 
+
+.imac img {
+  width: 98%;
+}
+
+
+/*m a c b o o k s */
+
+.macbooks {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/*m a c b o o k  A I R*/
+
+.macbooks .air {
+  height: 50%;
+  width: 100%;
+  margin-left: -30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.macbooks .air h1, .pro h1 {
+  font-size: 5rem;
+  font-family: Roboto, sans-serif;
+  color: var(--title-color);
+}
+
+.air h4, .pro h4 {
+  font-size: 2.4rem;
+}
+
+.macbooks .air img {
+  width: 100%;
+}
+
+/*m a c b o o k  P R O*/
+
+.macbooks .pro {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.macbooks .pro strong {
+  font-size: 2rem;
+  font-family: 'Open Sans', sans-serif;
+  color: var(--title-color);
+} 

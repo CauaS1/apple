@@ -1,0 +1,23 @@
+{
+  "name": "apple",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CauaS1/apple.git"
+  },
+  "author": "CauaS1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CauaS1/apple/issues"
+  },
+  "homepage": "https://github.com/CauaS1/apple#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
